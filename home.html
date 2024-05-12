@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/transitions.css">
+</head>
+<body>
+    
+    <!-- header section starts -->
+    <header class="header">
+        <a href="home.html" class="logo"><img src="images/logo.svg" alt="logo"> online food</a>
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+            <div id="menu" class="fas fa-bars"></div>
+        </div>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/shop-cart1.png" alt="capcake">
+                <div class="content">
+                    <h3>Capcake</h3>
+                    <span class="quantity">3</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 2.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/shop-cart2.webp" alt="macarons">
+                <div class="content">
+                    <h3>macarons</h3>
+                    <span class="quantity">5</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 2.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/shop-cart3.webp" alt="milkshake">
+                <div class="content">
+                    <h3>milkshake</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 5.99</span>
+                </div>
+            </div>
+            <h3 class="total">total: $29.91</h3>
+            <a href="#" class="btn">checkout cart</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login" class="btn">
+        </form>
+    </header>
+
+
+    <!-- banner section -->
+    <section class="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background: url(images/slider-1.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the most<span>delicious</span> food <br> in the world</h3>
+                        <a href="menu.html" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/slider-2.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the most<span>delicious</span> food <br> in the world</h3>
+                        <a href="menu.html" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/slider-3.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the most<span>delicious</span> food <br> in the world</h3>
+                        <a href="menu.html" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/slider-4.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the most<span>delicious</span> food <br> in the world</h3>
+                        <a href="menu.html" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(images/slider-5.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>the most<span>delicious</span> food <br> in the world</h3>
+                        <a href="menu.html" class="btn">order now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+
+    <!-- home section -->
+
+    <!-- banner section -->
+    <section class="banner">
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/banner1.jpg" alt="different dishes">
+                </div>
+                <div class="content">
+                    <h3>different dishes</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/banner2.jpg" alt="fast food">
+                </div>
+                <div class="content">
+                    <h3>fast food</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/banner3.jpg" alt="desserts">
+                </div>
+                <div class="content">
+                    <h3>desserts</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/banner4.jpg" alt="drinks">
+                </div>
+                <div class="content">
+                    <h3>drinks</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- steps section -->
+    <section class="steps">
+        <h1 class="title">how it <span>works</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/work-1.gif" alt="">
+                <h3>choose your favorite food</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/work-2.gif" alt="">
+                <h3>free and fast delivery</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/work-3.gif" alt="">
+                <h3>easy payments methods</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/work-4.gif" alt="">
+                <h3>and finally, enjoy your food</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- menu section -->
+    <section class="food">
+        <h1 class="title">food of the <span>week</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/menu5.jpg" alt="manty">
+                <h3>manty</h3>
+                <p>Predominantly meat-based dish popular among the peoples of Central Asia, Russia, Kyrgyzstan, and China. Manty consists of finely chopped meat, usually beef or lamb, wrapped in thinly rolled dough and steamed in a manty steamer.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$10.99 <span>$17.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu8.jpg" alt="pepperoni">
+                <h3>pepperoni</h3>
+                <p>Pepperoni is a type of cured sausage made from finely ground pork and beef, seasoned with spices such as paprika, garlic, fennel, and cayenne pepper. It is known for its bold, spicy flavor and distinctive red color.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$13.99 <span>$17.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu10.webp" alt="pancakes">
+                <h3>pancakes</h3>
+                <p>Pancakes are a beloved breakfast food enjoyed around the world. These versatile and delicious treats consist of a simple batter made from flour, eggs, milk, and a leavening agent, such as baking powder or baking soda.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$3.99 <span>$8.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="box-container">
+            <div class="box box_info">
+                <h3>online food</h3>
+                <p>our premier online destination for gourmet groceries and artisanal delights! Shop with ease from a vast selection of fresh, high-quality ingredients and discover everything you need for your culinary adventures, delivered straight to your doorstep. Experience the convenience of online shopping with a taste of luxury—perfect for the discerning foodie.</p>
+            </div>
+
+            <div class="box">
+                <h3>menu</h3>
+                <nav class="menu">
+                    <ul class="menu_list">
+                        <li class="menu_item"><a href="about.html" class="menu-link">About</a></li>
+                        <li class="menu_item"><a href="menu.html" class="menu-link">Menu</a></li>
+                        <li class="menu_item"><a href="gallery.html" class="menu-link">Gallery</a></li>
+                        <li class="menu_item"><a href="contuct.html" class="menu-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="box">
+                <div class="footer-contacts">
+                    <h3>Contucts</h3>
+                    <div class="contuct-link">
+                        <img src="images/email.svg" alt="email-icon">
+                        <a href = "mailto:nargiza.alieva@alatoo.edu.kg" target="_blank">nargiza.alieva@alatoo.edu.kg</a>
+                    </div>
+
+                    <div class="contuct-link">
+                        <img src="images/phone.svg" alt="phone-icon">                       
+                        <a href = "tel:+996700704620" target="_blank">+996700704620</a>
+                    </div>
+
+                    <div class="contuct-link">
+                        <img src="images/sms.svg" alt="sms-icon">
+                        <a href="sms:996700704620" target="_blank">+996700704620</a>
+                    </div>
+
+                    <div class="contuct-link">
+                        <img src="images/telegram.svg" alt="telegram-icon">
+                        <a href="https://t.me/+996700704620" target="_blank">+996700704620</a>
+                    </div>
+
+                    <div class="contuct-link">
+                        <img src="images/whatsapp.svg" alt="whatsapp-icon">
+                        <a href="https://api.whatsapp.com/send?phone={{+996700704620}}" target="_blank">+996700704620</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="credit">created by <span>Alieva Nargiza</span></div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

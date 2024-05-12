@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/transitions.css">
+</head>
+<body>
+    
+    <!-- header section -->
+    <header class="header">
+        <a href="home.html" class="logo"><img src="images/logo.svg" alt="logo"> online food</a>
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+            <div id="menu" class="fas fa-bars"></div>
+        </div>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/shop-cart1.png" alt="capcake">
+                <div class="content">
+                    <h3>Capcake</h3>
+                    <span class="quantity">3</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 2.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/shop-cart2.webp" alt="macarons">
+                <div class="content">
+                    <h3>macarons</h3>
+                    <span class="quantity">5</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 2.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/shop-cart3.webp" alt="milkshake">
+                <div class="content">
+                    <h3>milkshake</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$ 5.99</span>
+                </div>
+            </div>
+            <h3 class="total">total: $29.91</h3>
+            <a href="#" class="btn">checkout cart</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login" class="btn">
+        </form>
+    </header>
+
+    <!-- banner section -->
+    <div class="heading">
+        <h1>our contact</h1>
+        <p><a href="home.html">home >>></a> contact</p>
+    </div>
+
+
+    <!-- contact section -->
+    <section class="contact">
+        <div class="icon-container">
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>our number</h3>
+                <p><a href = "tel:+996700704620" target="_blank">+996700704620</a></p>
+                <p><a href = "tel:+996997394704" target="_blank">+996997394704</a></p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>our email</h3>
+                <p><a href = "mailto:nargiza.alieva@alatoo.edu.kg" target="_blank">nargiza.alieva@alatoo.edu.kg</a></p>
+                <p><a href = "mailto:nargizaalieva46@gmail.com" target="_blank">nargizaalieva46@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="icon-container">
+            <div class="icons">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>our address</h3>
+                <p>Bishkek, Tunguch 60/1</p>
+                <iframe class="adress-map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d365.61287381246024!2d74.68871530086176!3d42.85378150559684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0LzQuNC60YDQvtGA0LDQudC-0L0g0YLRg9C90LPRg9GHIDYw!5e0!3m2!1sen!2skg!4v1711730825575!5m2!1sen!2skg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="row">
+
+            <form action="">
+                <h3>Contact with us</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="name" class="box">
+                    <input type="email" placeholder="email" class="box">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number" class="box">
+                    <input type="text" placeholder="subject" class="box">
+                </div>
+                <textarea placeholder="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <footer class="footer">
+        <div class="box-container">
+            <div class="box box_info">
+                <h3>online food</h3>
+                <p>our premier online destination for gourmet groceries and artisanal delights! Shop with ease from a vast selection of fresh, high-quality ingredients and discover everything you need for your culinary adventures, delivered straight to your doorstep. Experience the convenience of online shopping with a taste of luxury—perfect for the discerning foodie.</p>
+            </div>
+
+            <div class="box">
+                <h3>menu</h3>
+                <nav class="menu">
+                    <ul class="menu_list">
+                        <li class="menu_item"><a href="home.html" class="menu-link">Home</a></li>
+                        <li class="menu_item"><a href="about.html" class="menu-link">About</a></li>
+                        <li class="menu_item"><a href="menu.html" class="menu-link">Menu</a></li>
+                        <li class="menu_item"><a href="gallery.html" class="menu-link">Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="box">
+                <div class="footer-contacts">
+                    <h3>Contucts</h3>
+                    <div class="contuct-link">
+                        <img src="images/email.svg" alt="email-icon">
+                        <a href = "mailto:nargiza.alieva@alatoo.edu.kg" target="_blank">nargiza.alieva@alatoo.edu.kg</a>
+                    </div>
+
+                    <div class="contuct-link">
+                        <img src="images/phone.svg" alt="phone-icon">                       
+                        <a href = "tel:+996700704620" target="_blank">+996700704620</a>
+                    </div>
+
+                    <div class="contuct-link">
+                        <img src="images/sms.svg" alt="sms-icon">
+                        <a href="sms:996700704620" target="_blank">+996700704620</a>
+                    </div>
+
+                    <div class="contuct-link">
+                        <img src="images/telegram.svg" alt="telegram-icon">
+                        <a href="https://t.me/+996700704620" target="_blank">+996700704620</a>
+                    </div>
+
+                    <div class="contuct-link">
+                        <img src="images/whatsapp.svg" alt="whatsapp-icon">
+                        <a href="https://api.whatsapp.com/send?phone={{+996700704620}}" target="_blank">+996700704620</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="credit">created by <span>Alieva Nargiza</span></div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
